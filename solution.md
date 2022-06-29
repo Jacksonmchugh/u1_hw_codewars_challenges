@@ -1,43 +1,54 @@
 ## Return Negative
 
-```js
-function subtractOne(0){
-    return 0 - 1
+````js
+const num =[2]
+function makeNegative(num) {
+  return -num
+
 }
-console.log(subtractOne)
-```
 
 ## Sum of Positive
 
 ```js
-function addNumber(2) {
-    return 2 + 2 = 4
+const arr =[-1, 2, -3, 4, -5]
+function positiveSum(arr) {
+  let sum = 0;
+  for(let i =0; i <arr.length; i++){
+    if(arr[i] > 0) sum += arr[i]
+  }
+  return sum
 
 }
-console.log(addNumber)
-```
+
+
+````
 
 ## Function 2
 
 ```js
-function square(2){
-    return 2^2 =
+const num = [2]
+function square(num) {
+  return num * num
 }
 ```
 
 ## Sum Arrays
 
 ```js
-const num = [2, 4, 6]{
-    return [2 + 4 +6]
+function sum(numbers) {
+  let sum = 0
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i]
+  }
+  return sum
 }
 ```
 
 ## Reversed Strings
 
 ```js
-const reverse ['live' 'raw']{
-    return ['evil', 'war']
+const str = [1, 2, 3, 4]
+function solution(str) {
+  return str.split('').reverse().join('')
 }
-console.log(reverse)
 ```
